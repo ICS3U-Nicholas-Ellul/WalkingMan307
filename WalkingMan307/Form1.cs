@@ -88,7 +88,8 @@ namespace WalkingMan307
                     loopCounter = 0;
                 } 
 
-                } while (loopCounter < 10);
+            
+                } while (loopCounter < 10 && this.picMan.Location.X > 0);
             }
 
        
