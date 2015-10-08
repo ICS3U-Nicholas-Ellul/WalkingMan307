@@ -26,7 +26,7 @@ namespace WalkingMan307
 
                 do
                 {
-                
+               
                     if (loopCounter == 0)
                     {
                         this.picMan.Image = WalkingMan307.Properties.Resources.walk2;
