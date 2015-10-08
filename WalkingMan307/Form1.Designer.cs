@@ -37,16 +37,17 @@
             // 
             // picMan
             // 
-            this.picMan.Location = new System.Drawing.Point(-2, 141);
+            this.picMan.Location = new System.Drawing.Point(548, 188);
             this.picMan.Name = "picMan";
             this.picMan.Size = new System.Drawing.Size(100, 50);
+            this.picMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picMan.TabIndex = 0;
             this.picMan.TabStop = false;
             // 
             // lblFloor
             // 
             this.lblFloor.AutoSize = true;
-            this.lblFloor.Location = new System.Drawing.Point(-5, 194);
+            this.lblFloor.Location = new System.Drawing.Point(-9, 344);
             this.lblFloor.Name = "lblFloor";
             this.lblFloor.Size = new System.Drawing.Size(697, 13);
             this.lblFloor.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(688, 261);
+            this.ClientSize = new System.Drawing.Size(682, 416);
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.lblFloor);
             this.Controls.Add(this.picMan);
