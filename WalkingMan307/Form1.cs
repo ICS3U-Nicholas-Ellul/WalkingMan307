@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Nicholas  Ellul
+ * Created on: OCT-8-2015
+ * Created for: ICS3U
+ * Daily Assignment – Unit 3-07 
+ * This program animates a walking man
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +15,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using System.Threading;
 namespace WalkingMan307
 
@@ -18,9 +25,9 @@ namespace WalkingMan307
         {
             InitializeComponent();
         }
-        
 
-        private void btnRun_Click(object sender, EventArgs e)
+   
+       private void btnRun_Click(object sender, EventArgs e)
         {
            
                 int loopCounter = 0;
@@ -72,6 +79,7 @@ namespace WalkingMan307
                 loopCounter = loopCounter + 1;
 
                 // pause
+               
                 this.picMan.Location = new Point(this.picMan.Location.X - 5, this.picMan.Location.Y);
                 this.Refresh();
                 Thread.Sleep(100);
@@ -83,7 +91,9 @@ namespace WalkingMan307
                 } while (loopCounter < 10);
             }
 
-        }
+       
+    }
+
     }
 
 
